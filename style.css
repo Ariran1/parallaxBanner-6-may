@@ -1,0 +1,428 @@
+.container__may30 {
+	background: #6bd5f7;
+	height: 260px;
+}
+.may30 {
+	height: inherit;
+	max-width: 1200px;
+	position: absolute;
+	top:0;
+	left:0;
+	margin: 0 auto;
+	right: 0;
+}
+.may30__position {
+	position: absolute;
+	top:0;
+	left:0;
+}
+.may30__30image {
+	background: url(images/6may30.svg) no-repeat center center;
+	background-size: contain;
+	width:37%;
+	height:195px;
+	position: absolute;
+	left:2%;
+	top:10px;
+	margin: 25px 0 0 30px;
+}
+.may30__actionText {
+	background: url(images/6may30__actionText.svg) no-repeat center center;
+	background-size: contain;
+	width: 50%;
+	height: 83px;
+	left:41%;
+	top:0;
+	margin: 34px 0 0 40px;
+	position: absolute;
+}
+.may30__buttons {
+	position:absolute;
+	left:38%;
+	top:52%;
+	z-index:9999999;
+}
+.may30__button {
+	padding: 12px 47px;
+	border: 2px solid #0a4971;
+	font-family: 'Roboto';
+	font-size: 28px;
+	display: inline-block;
+	margin: 0px 9px;
+	color: #2f6779;
+	cursor: pointer;
+	font-weight: 300;; 
+}
+.may30__button:hover {
+	background: #0054a6;
+	color:#c6f1ff;
+}
+.may30__scene {
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+.may30__scene li {
+	width:100%;
+	height:inherit;
+}
+
+
+
+
+
+.may30__cloud1 span {
+	width:12%;
+	padding-bottom: 10.47%;
+	max-width: 314px;
+	background: url(images/cloud1.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:8%;
+	top:-50px;
+}
+.may30__cloud2 span {
+	width:21.2%;
+	max-width: 480px;
+	background: url(images/cloud2.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:3%;
+	padding-bottom:8.3%;
+	top:37px;
+}
+
+.may30__cloud3 span {
+	width:13.6%;
+	max-width: 250px;
+	background: url(images/cloud3.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:1%;
+	padding-bottom:7.3%;
+	top:-11px;
+}
+
+
+.may30__cloud4 span {
+	width:11.2%;
+	max-width: 120px;
+	background: url(images/cloud2.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:22%;
+	padding-bottom:5.3%;
+	top:-26px;
+}
+
+.may30__cloud5 span {
+	width:18.2%;
+	max-width: 350px;
+	background: url(images/cloud4.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:37%;
+	padding-bottom:9.3%;
+	top:-8px;
+}
+.may30__cloud6 span {
+	width:11.2%;
+	max-width: 120px;
+	background: url(images/cloud2.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	left:22%;
+	padding-bottom:5.3%;
+	top:26px;
+}
+
+.may30__cloud7 span {
+	width:12%;
+	padding-bottom: 10.47%;
+	max-width: 314px;
+	background: url(images/cloud1.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	left:8%;
+	top:-50px;
+}
+.may30__cloud8 span {
+	width:21.2%;
+	max-width: 480px;
+	background: url(images/cloud2.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	left:-2%;
+	padding-bottom:8.3%;
+	top:49px;
+}
+
+.may30__cloud9 span {
+	width:13.6%;
+	max-width: 250px;
+	background: url(images/cloud3.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	left:-3%;
+	padding-bottom:7.3%;
+	top:-11px;
+}
+
+.may30__trawa span {
+	width:140%;
+	background: url(images/trava33.png) repeat-x center center;
+	background-size: contain;
+	position:absolute;
+	left:-20%;
+	height: 20%;
+	bottom:-1%;
+}
+.may30__flowerLeft span {
+	width:20.6%;
+	background: url(images/flowerLeft.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	left:-4%;
+	height: 120%;
+	top:-10%;
+}
+.may30__flowerRight span {
+	width:23.6%;
+	background: url(images/flowerRight.png) no-repeat center center;
+	background-size: contain;
+	position:absolute;
+	right:-6%;
+	height: 120%;
+	top:-18%;
+}
+
+@media screen and (max-width: 1700px) {
+
+.may30__flowerLeft span {
+	left:-6%;
+}
+.may30__flowerRight span {
+	right:-9%;
+}
+}
+@media screen and (max-width: 1600px) {
+
+.may30__flowerLeft span {
+	left:-9%;
+}
+.may30__flowerRight span {
+	right:-12%;
+}
+}
+
+@media screen and (max-width: 1500px) {
+
+.may30__flowerLeft span {
+	left:-10%;
+}
+.may30__flowerRight span {
+	right:-13%;
+}
+}
+
+@media screen and (max-width: 1500px) {
+
+.may30__flowerLeft span {
+	left:-10%;
+}
+.may30__flowerRight span {
+	right:-13%;
+}
+}
+@media screen and (max-width: 1400px) {
+.may30 {;
+}
+.may30__flowerLeft span {
+	left:-14%;
+	width:24.6%;
+}
+.may30__flowerRight span {
+	right:-13%;
+	width:21.6%;
+}
+}
+
+@media screen and (max-width: 1200px) {
+.may30 {
+}
+.may30__30image {
+	width:33%;
+	height:195px;
+	top:0;
+	margin: 25px 0 0 30px;
+}
+.may30__actionText {
+	width: 50%;
+	height: 83px;
+	left:41%;
+	top:3%;
+	margin: 34px 0 0 40px;
+}
+.may30__button {
+    padding: 12px 43px;
+}
+.may30__cloud3 span {
+    width: 15.6%;
+    padding-bottom: 9.3%;
+}
+
+.may30__cloud8 span {
+    width: 24.6%;
+    padding-bottom: 9.3%;
+}
+.may30__cloud9 span {
+    width: 15.6%;
+    padding-bottom: 9.3%;
+}
+}
+@media screen and (max-width: 1150px) {
+.may30__button {
+    padding: 12px 36px;
+}
+}
+
+@media screen and (max-width: 1050px) {
+.may30__button {
+    padding: 12px 32px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.container__may30 {
+    height: 200px;
+}
+.may30 {
+    width: 320px;
+}
+.may30__30image {
+	width:264px;
+	height:112px;
+	margin:5px auto 0;
+	position:relative;
+}
+.may30__actionText {
+	width:241px;
+	height:33px;
+	margin:0px auto 0;
+	position:relative;
+	top:0;
+	left:auto;
+	right:auto;
+}
+.may30__buttons {
+	left:auto;
+	top:auto;
+	right:auto;
+}
+.may30__button {
+    font-size: 18px;
+    padding: 8px 0;
+    margin: 5px 2.5px 0;
+    width:97px;
+	text-align: center;
+	float:left;
+	display: block;
+	background: #0054a6;
+	color: #eef;
+}
+.may30__button:hover {
+	color: #eef;
+}
+
+
+
+
+.may30__cloud1 span {
+    width: 21%;
+    padding-bottom: 15.47%;
+    max-width: 314px;
+    background: url(images/cloud1.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    right: 8%;
+}
+.may30__cloud2 span {
+    width: 33.2%;
+    max-width: 480px;
+    background: url(images/cloud2.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    right: 3%;
+    padding-bottom: 14.3%;
+    top: 15px;
+}
+.may30__cloud6 span {
+    width: 23.2%;
+    max-width: 233px;
+    background: url(images/cloud2.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    left: 22%;
+    padding-bottom: 12.3%;
+    top: -20px;
+}
+.may30__cloud7 span {
+    width: 23%;
+    padding-bottom: 16.47%;
+    max-width: 314px;
+    background: url(images/cloud1.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    left: 6%;
+    top: -50px;
+}
+.may30__cloud8 span {
+    width: 31.2%;
+    max-width: 480px;
+    background: url(images/cloud2.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    left: -2%;
+    padding-bottom: 13.3%;
+    top: 19px;
+}
+.may30__cloud9 span {
+    width: 15.6%;
+    max-width: 250px;
+    background: url(images/cloud3.png) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    left: -3%;
+    padding-bottom: 14.3%;
+    top: -41px;
+}
+.may30__flowerLeft span {
+    left: -12%;
+    width: 42.6%;
+    height: 176%;
+    top: -35%;
+}
+.may30__flowerRight span {
+    right: -6%;
+    width: 38.6%;
+    height: 147%;
+    top: -23%;
+    transform: rotate(45deg);
+}
+}
+@media screen and (max-width: 600px) {
+.may30__flowerLeft span {
+    left: -25%;
+    width: 42.6%;
+    height: 176%;
+    top: -35%;
+}
+.may30__flowerRight span {
+    right: -17%;
+    width: 38.6%;
+    height: 147%;
+    top: -23%;
+    transform: rotate(45deg);
+}	
+}
+
